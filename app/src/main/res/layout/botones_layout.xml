@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -22,7 +23,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="borrar"
             android:text="CA"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -35,7 +40,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="borrar"
             android:text="C"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -48,7 +57,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="cambiarOperador"
             android:text="%"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -61,7 +74,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="cambiarOperador"
             android:text="÷"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -74,9 +91,11 @@
 
             android:onClick="seleccionarNumero"
             android:text="7"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -89,9 +108,11 @@
             android:onClick="seleccionarNumero"
 
             android:text="8"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -104,9 +125,11 @@
             android:onClick="seleccionarNumero"
 
             android:text="9"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -119,7 +142,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="cambiarOperador"
             android:text="X"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -132,9 +159,11 @@
 
             android:onClick="seleccionarNumero"
             android:text="4"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -147,9 +176,11 @@
             android:onClick="seleccionarNumero"
 
             android:text="5"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -162,9 +193,11 @@
             android:onClick="seleccionarNumero"
 
             android:text="6"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -177,7 +210,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="cambiarOperador"
             android:text="-"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -190,9 +227,11 @@
 
             android:onClick="seleccionarNumero"
             android:text="1"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -205,9 +244,11 @@
             android:onClick="seleccionarNumero"
 
             android:text="2"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -220,9 +261,11 @@
             android:onClick="seleccionarNumero"
 
             android:text="3"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -235,7 +278,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="cambiarOperador"
             android:text="+"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
         <Button
             android:layout_width="wrap_content"
@@ -248,9 +295,11 @@
 
             android:onClick="seleccionarNumero"
             android:text="."
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -264,9 +313,11 @@
 
             android:onClick="seleccionarNumero"
             android:text="0"
-            android:textColor="#673AB7"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#070707"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
+            app:strokeColor="#000000"
             app:strokeWidth="2dp" />
 
         <Button
@@ -281,7 +332,11 @@
             android:backgroundTint="#BBDEFB"
             android:onClick="igual"
             android:text="="
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="24sp"
+            app:strokeColor="#000000" />
 
     </GridLayout>
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A7CAA9"
+    android:background="#FFF8F8F8"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,19 +12,20 @@
         android:id="@+id/tvTemp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#A7CAA9"
+        android:background="#FFF8F8F8"
         android:padding="10dp"
         android:textAlignment="textEnd"
-        android:textColor="#A6A6A6"
+        android:textColor="#000000"
         android:textSize="34sp" />
 
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#A7CAA9"
+        android:background="#F8F8F8"
         android:padding="10dp"
         android:textAlignment="textEnd"
+        android:textColor="#000000"
         android:textSize="60sp" />
 
     <include
